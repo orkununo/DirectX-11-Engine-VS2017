@@ -8,6 +8,7 @@ struct PS_INPUT
 {
     float4 inPosition : SV_POSITION;
     float2 inTexCoord : TEXCOORD;
+    float3 inNormal : NORMAL;
 };
 
 Texture2D objTexture : TEXTURE : register(t0);
